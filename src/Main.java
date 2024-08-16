@@ -1,15 +1,20 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-    }
-}
+/*
+ *Author: ( Last Name, First Name, Middle Initial )
+ *Programming Date : _______________________
+ *Activity Name and Number: Prelim Exercise Number 1
+ */
+//This source code should be saved in a file called Exercise1.java
+package prelim;
+import java.lang.*; // import statement
+public class Exercise1 { // class declaration
+    public static void main(String[] args) { // main method declaration
+        System.out.println("*****************************************");
+        System.out.println("*                                       *");
+        System.out.println("*                                       *");
+        System.out.println("*              hello world              *");
+        System.out.println("*                                       *");
+        System.out.println("*                                       *");
+        System.out.println("*****************************************");
+        System.exit(0); // terminate the program
+    } // end of main method
+} // end of Exercise1 class
